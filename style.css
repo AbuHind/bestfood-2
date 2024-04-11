@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  padding-top: 40vh;
+  padding-top: 5vh;
   margin-left: 1em;
 }
 
@@ -43,11 +43,11 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   background-image: url(image/inna-gurina-JspLKUauwSI-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   height: 40vh;
   width: 100%;
@@ -68,4 +68,8 @@ td {
 .liste-2 {
   width: 30%;
   table-layout: fixed;
+}
+
+.d-block {
+  height: 80vh;
 }
